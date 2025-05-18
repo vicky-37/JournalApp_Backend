@@ -4,18 +4,18 @@ spring:
       client:
         registration:
           google:
-            client-id: ${GOOGLE-ID}
-            client-secret: ${GOOGLE-SECRET}
+            client-id: ${GOOGLE_ID}
+            client-secret: ${GOOGLE_SECRET}
 
   main:
     allow-circular-references: true
 
 
   redis:
-    uri: ${REDIS-URI}
+    uri: ${REDIS_URI}
   data:
     mongodb:
-      uri: ${MONGODB-URI}
+      uri: ${MONGODB_URI}
       database: Journaldb
       auto-index-creation: true
 
