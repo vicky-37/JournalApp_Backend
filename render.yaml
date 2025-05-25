@@ -9,7 +9,7 @@ services:
     envVars:
       - key: MONGODB_URI
         sync: false
-      - key: REDIS-URI
+      - key: REDIS_URI
         sync: false
       - key: KAFKA_SERVER
         sync: false
@@ -21,16 +21,16 @@ services:
         sync: false
       - key: PASSWORD
         sync: false
-      - key: GOOGLE-ID
+      - key: GOOGLE_ID
         sync: false
-      - key: GOOGLE-SECRET
+      - key: GOOGLE_SECRET
         sync: false
       - key: WEATHER_API_KEY
         sync: false
       - key: SERVER_PORT
         value: 8080
       - key: SPRING_PROFILES_ACTIVE
-        value: prod
+        sync: false
       # Java specific settings
       - key: JAVA_OPTS
         value: "-XX:MaxRAM=1024m"
