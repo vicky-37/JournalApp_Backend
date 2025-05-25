@@ -16,7 +16,7 @@ spring:
   data:
     mongodb:
       uri: ${MONGODB_URI}
-      database: journaldb
+      database: Journaldb
       auto-index-creation: true
 
   mail:
